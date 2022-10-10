@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+.porque{
+    width: 1440px;
+    background-color: #121216;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.par{
+    color: #bebec7;
+    text-align: center;
+    width: 545px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.sub{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 29px;
+    font-family: 'Roboto', sans-serif;
+}
+.tit{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+}
+.button1{
+    width: 338px;
+    height: 54px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 50px;
+    color: #191919;
+    border-radius: 30px;
+    margin-bottom:50px ;
+}
+.par1{
+    color: #bebec7;
+    text-align: center;
+    width: 600px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.button2{
+    width: 176px;
+    height: 54px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #191919;
+    border-radius: 30px;
+    margin-bottom:30px ;
+}
+.par2{
+    color: #bebec7;
+    text-align: center;
+    width: 600px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button3{
+    width: 237px;
+    height: 54px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #191919;
+    border-radius: 30px;
+    margin-bottom:30px ;
+}
+.tit1{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    width: 600px;
+}
