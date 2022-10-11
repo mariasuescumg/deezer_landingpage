@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+
+}
+.porque{
+    width: 1440px;
+    height: 3000px;
+    background-color: #121216;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.par{
+    color: #bebec7;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.par1{
+    color: #bebec7;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sub{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 29px;
+    font-family: 'Roboto', sans-serif;
+}
+.tit{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+}
+.button1{
+    width: 338px;
+    height: 54px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 50px;
+    color: #191919;
+    border-radius: 30px;
+    margin-bottom:50px ;   
+}
+
+.button2{
+    width: 176px;
+    height: 54px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #191919;
+    border-radius: 30px;
+    margin-bottom:30px ;
+   
+}
+.button3{
+    width: 237px;
+    height: 54px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #191919;
+    border-radius: 30px;
+    margin-bottom:30px ;
+   
+}
+.tit1{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    width: 600px;
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.v1{
+   border-radius: 5px;
+   width: 215px;
+   height: 215px;
+}
+.v3{
+    border-radius: 5px;
+    width: 215px;
+    height: 215px;
+    margin-top: 20px;
+ }
+.pie{
+    color: #bebec7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.v2{
+   width: 215px;
+   height: 215px;
+   margin-left: 40px;
+   margin-right: 40px;
+   border-radius: 5px;
+   
+}    
+.button4{
+    width: 267px;
+    height: 54px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 80px;
+    color: #191919;
+    border-radius: 30px;
+    margin-bottom:30px ;  
+}
+.fa-solid{
+   align-items: center;
+   color: #000000; 
+}
+.play{
+   display: inline-block;
+   position: relative; 
+}
