@@ -4,11 +4,11 @@
 }
 .porque{
     width: 1440px;
-    height: 3000px;
     background-color: #121216;
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
 }
 .par{
     color: #bebec7;

@@ -37,6 +37,7 @@ body {
 .btn.btn-white {
     background-color: white;
     color: #000;
+    font-weight: bold;
 }
 
 .home__novedades {
