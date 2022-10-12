@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121216;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+
+.section {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto 79px;
+}
+
+.section.section--small {
+    max-width: 460px;
+}
+
+.btn {
+    font-size: 14px;
+    border-radius: 100px;
+    display: block;
+    color: white;
+    background-color: #000;
+    padding: 14px 32px;
+    margin: 30px auto;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+}
+
+.btn.btn-white {
+    background-color: white;
+    color: #000;
+    font-weight: bold;
+}
+
+.home__novedades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__novedades_home__novedades-subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+    background-color: #121216;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 auto 20px;
+    margin-top: 20px;
+}
+
+.home__novedades_home__novedades-subtitle::before {
+    content: "";
+    width: 250%;
+    height: 1px;
+    background: linear-gradient(270deg,currentColor,currentColor 84.88%,rgba(0,0,0,0)) ;
+    position: absolute;
+    top: 50%;
+    left: -250%;
+    z-index: -1;
+    color: #3e3e3f;
+    
+}
+
+.home__novedades_home__novedades-subtitle::after {
+    content: "";
+    width: 250%;
+    height: 1px;
+    background: linear-gradient(-270deg,currentColor,currentColor 84.88%,rgba(0,0,0,0)) ;
+    position: absolute;
+    top: 50%;
+    right: -250%;
+    z-index: -1;
+    color: #3e3e3f;
+    
+}
+
+.home__novedades .home__novedades-title {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home__faq .home__faq-item summary{
+    font-size: 29px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__faq .home__faq-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+.parrafofinal {
+    font-size: 12px;
+    margin-top: 30px;
+    text-align: justify;
+    color: #92929d;
+    padding: 50px 0;
+}
+
+.marginfooter{
+    margin-top:10px ;
+    margin-left: 10px;
+    background-color:transparent;
+    color:#3e3e3f ;
+    border: none;
+    outline: none;
+    padding-bottom: 30px;
+}
+.home__faq .home__faq-item p {
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.latam{
+    display: flex;
+    align-items: center;
+}
+.latam p {
+    font-size: 10px;
+}
+.lang-select{
+    margin-left: 10px;
+    background-color:transparent;
+    color:#92929d ;
+    border: none;
+    outline: none;
+    font-size: 12px;
+}
+
+.lang-select option {
+    color: #000;
+}
+
+.home__faq .home__faq-item[open] summary svg {
+    transform: rotate(90deg);
+}
+
+.home__faq .home__faq-item summary svg{
+    fill: white;
+}
+
+.home__faq .home__faq-item summary::-webkit-details-marker {
+    display:none;
+}
+
+.redes ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.redes li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.redes li svg {
+    fill: #fff;
+
+}
+
+.footer .footer__nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 50px;
+    margin-bottom: 30px;
+}
+
+.footer .footer__brand {
+    margin-bottom: 30px;
+    margin-top: 120px;
+}
+
+.footer .footer__nav .footer__nav-item {}
+
+.footer .footer__nav .footer__nav-item ul {
+    list-style: none;
+}
+.footer .footer__nav .footer__nav-item li {
+    line-height : 30px;
+    color: white;
+    font-size: 15px;
+}
+.footer__nav-final{
+    display: flex;
+    justify-content:center;
+    padding: 10px 0;
+    justify-content:space-between
+}
+.section footer{
+    margin-top: 100px;
+    padding: 100px;
+
+}
+
+.footer__brand_img {
+    display: flex;
+    justify-content:center;
+}
+
+.footer__brand_img img {
+    max-width: 200px;
+}
+.home__novedades-description{
+line-height: 16px;
+text-align:center;
+}
+
+.home__faq-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+
